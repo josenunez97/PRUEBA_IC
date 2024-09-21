@@ -30,7 +30,7 @@ module tt_um_example (
             counter <= 24'd0;
             display_value <= display_value + 1'b1;
 
-            if (display_value == 4'd15) begin
+            if (display_value == 4'd7) begin
                 display_value <= 4'd0;
             end
         end else begin
